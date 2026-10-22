@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WebBari ওয়েববাড়ি — অল্প খরচে প্রফেশনাল ওয়েবসাইট তৈরি</title>
+<meta name="description" content="আপনার ব্যবসার জন্য প্রফেশনাল ওয়েবসাইট মাত্র ৳১,৯৯৯ থেকে। মোবাইল-ফ্রেন্ডলি ডিজাইন, WhatsApp বাটন, গুগল SEO সেটআপসহ। ৫০% অগ্রিম, ৩–৫ দিনে ডেলিভারি।">
+<meta property="og:title" content="WebBari — অল্প খরচে প্রফেশনাল ওয়েবসাইট">
+<meta property="og:description" content="ল্যান্ডিং পেজ ৳১,৯৯৯ • বিজনেস সাইট ৳৪,৯৯৯ • অনলাইন শপ ৳৯,৯৯৯। WhatsApp-এ অর্ডার করুন।">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0b7a4b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='96' fill='%230b7a4b'/%3E%3Ctext x='256' y='340' font-family='Arial' font-size='230' font-weight='700' text-anchor='middle' fill='white'%3EW%3C/text%3E%3C/svg%3E">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--g:#0b7a4b;--gd:#095c38;--gold:#e8a00c;--ink:#12211a;--mut:#5a6b62;--bg:#f4f8f5;--card:#fff}
+body{font-family:'Hind Siliguri','Segoe UI',Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
+a{text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header{background:#fff;border-bottom:1px solid #e3ece6;position:sticky;top:0;z-index:50}
+.hd{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-size:24px;font-weight:700;color:var(--g)}
+.logo span{color:var(--gold)}
+.hd nav a{color:var(--ink);margin-left:18px;font-weight:600;font-size:15px}
+.hd .cta{background:var(--g);color:#fff;padding:8px 16px;border-radius:10px;margin-left:18px}
+@media(max-width:640px){.hd nav a:not(.cta){display:none}}
+.hero{background:linear-gradient(135deg,#0b7a4b,#063d24);color:#fff;padding:56px 0 48px;text-align:center}
+.hero h1{font-size:34px;line-height:1.3;margin-bottom:12px}
+.hero h1 b{color:#ffd34d}
+.hero p{font-size:17px;opacity:.93;max-width:640px;margin:0 auto 22px}
+.btn{display:inline-block;background:var(--gold);color:#231a00;font-weight:700;padding:13px 28px;border-radius:12px;font-size:17px}
+.btn.wa{background:#25d366;color:#06310f}
+.hero .sub{margin-top:14px;font-size:14px;opacity:.85}
+.sec{padding:44px 0 8px}
+.sec h2{font-size:26px;text-align:center;margin-bottom:6px}
+.sec .lead{text-align:center;color:var(--mut);margin-bottom:26px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid #e3ece6;border-radius:16px;padding:24px 20px;box-shadow:0 2px 10px rgba(9,60,35,.05)}
+.card.hot{border:2px solid var(--gold);position:relative}
+.badge{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--gold);color:#231a00;font-size:13px;font-weight:700;padding:3px 14px;border-radius:99px}
+.card h3{font-size:19px;margin-bottom:4px}
+.price{font-size:30px;font-weight:700;color:var(--g);margin:8px 0 2px}
+.price small{font-size:14px;color:var(--mut);font-weight:400}
+.card ul{list-style:none;margin:14px 0 20px;font-size:15px}
+.card ul li{padding:5px 0 5px 26px;position:relative;color:#2c3e34}
+.card ul li:before{content:'✓';position:absolute;left:0;color:var(--g);font-weight:700}
+.card .btn{width:100%;text-align:center;padding:11px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.step{background:#fff;border:1px solid #e3ece6;border-radius:16px;padding:22px;text-align:center}
+.step .n{width:44px;height:44px;border-radius:50%;background:var(--g);color:#fff;font-size:20px;font-weight:700;display:flex;align-items:center;justify-content:center;margin:0 auto 10px}
+.work{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.work a{background:#fff;border:1px solid #e3ece6;border-radius:16px;padding:20px;display:block;color:var(--ink)}
+.work a b{color:var(--g);font-size:17px}
+.work a p{color:var(--mut);font-size:14px;margin-top:4px}
+.faq{background:#fff;border:1px solid #e3ece6;border-radius:16px;padding:8px 22px}
+.faq details{border-bottom:1px solid #eef3f0;padding:14px 0}
+.faq details:last-child{border-bottom:none}
+.faq summary{font-weight:700;cursor:pointer;font-size:16px}
+.faq p{color:var(--mut);margin-top:6px;font-size:15px}
+.final{background:linear-gradient(135deg,#0b7a4b,#063d24);color:#fff;border-radius:20px;padding:36px 24px;text-align:center;margin:40px 0}
+.final h2{color:#fff}
+.final p{opacity:.92;margin:8px 0 20px}
+footer{padding:26px 0 90px;text-align:center;color:var(--mut);font-size:14px}
+.wafloat{position:fixed;right:16px;bottom:16px;background:#25d366;color:#fff;font-weight:700;padding:13px 20px;border-radius:99px;box-shadow:0 6px 20px rgba(0,0,0,.25);z-index:99;font-size:16px}
+</style>
+</head>
+<body>
+<header><div class="wrap hd">
+<div class="logo">Web<span>Bari</span> ওয়েববাড়ি</div>
+<nav>
+<a href="#package">প্যাকেজ</a><a href="#kaj">আমাদের কাজ</a><a href="#faq">জিজ্ঞাসা</a>
+<a class="cta" href="https://wa.me/8801677161678?text=%E0%A6%86%E0%A6%AE%E0%A6%BF%20%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BE%20%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F%20%E0%A6%AC%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87" target="_blank" rel="noopener">অর্ডার করুন</a>
+</nav></div></header>
+
+<section class="hero"><div class="wrap">
+<h1>আপনার ব্যবসার <b>প্রফেশনাল ওয়েবসাইট</b><br>মাত্র ৳১,৯৯৯ থেকে</h1>
+<p>দোকান, রেস্টুরেন্ট, কোচিং, ফ্রিল্যান্সার কিংবা অনলাইন ব্যবসা — যেকোনো কাজের জন্য সুন্দর, দ্রুত ও মোবাইল-ফ্রেন্ডলি ওয়েবসাইট বানিয়ে দিই ৩–৫ দিনে।</p>
+<a class="btn wa" href="https://wa.me/8801677161678?text=%E0%A6%86%E0%A6%AE%E0%A6%BF%20%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BE%20%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F%20%E0%A6%AC%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87" target="_blank" rel="noopener">💬 WhatsApp-এ কথা বলুন</a>
+<div class="sub">৫০% অগ্রিম (বিকাশ) • বাকি টাকা ডেলিভারির সময় • হোস্টিং সম্পূর্ণ ফ্রি</div>
+</div></section>
+
+<section class="sec" id="package"><div class="wrap">
+<h2>প্যাকেজ ও রেট</h2>
+<p class="lead">সব প্যাকেজেই থাকছে: মোবাইল-ফ্রেন্ডলি ডিজাইন, WhatsApp বাটন, গুগল SEO সেটআপ, ৭ দিনের ফ্রি সাপোর্ট</p>
+<div class="grid">
+<div class="card">
+<h3>ল্যান্ডিং পেজ</h3>
+<div class="price">৳১,৯৯৯ <small>/ একবার</small></div>
+<ul><li>১ পেজের আকর্ষণীয় সাইট</li><li>পণ্য/সেবার পরিচিতি ও ছবি</li><li>WhatsApp অর্ডার বাটন</li><li>যোগাযোগের তথ্য ও ম্যাপ</li><li>ডেলিভারি: ২–৩ দিন</li></ul>
+<a class="btn" href="https://wa.me/8801677161678?text=%E0%A6%86%E0%A6%AE%E0%A6%BF%20%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%82%20%E0%A6%AA%E0%A7%87%E0%A6%9C%20%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%87%E0%A6%9C%20(%E0%A7%B3%E0%A7%A7,%E0%A7%AF%E0%A7%AF%E0%A7%AF)%20%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87" target="_blank" rel="noopener">এই প্যাকেজ নিন</a>
+</div>
+<div class="card hot"><div class="badge">সবচেয়ে জনপ্রিয়</div>
+<h3>বিজনেস ওয়েবসাইট</h3>
+<div class="price">৳৪,৯৯৯ <small>/ একবার</small></div>
+<ul><li>সর্বোচ্চ ৫টি পেজ (হোম, সেবা, গ্যালারি, আমাদের সম্পর্কে, যোগাযোগ)</li><li>গুগল ম্যাপ ও কল বাটন</li><li>ফেসবুক পেজ সংযোগ</li><li>বেসিক SEO — গুগলে খুঁজে পাওয়া যাবে</li><li>ডেলিভারি: ৩–৫ দিন</li></ul>
+<a class="btn" href="https://wa.me/8801677161678?text=%E0%A6%86%E0%A6%AE%E0%A6%BF%20%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B8%20%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F%20%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%87%E0%A6%9C%20(%E0%A7%B3%E0%A7%AA,%E0%A7%AF%E0%A7%AF%E0%A7%AF)%20%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87" target="_blank" rel="noopener">এই প্যাকেজ নিন</a>
+</div>
+<div class="card">
+<h3>অনলাইন শপ</h3>
+<div class="price">৳৯,৯৯৯ <small>/ একবার</small></div>
+<ul><li>পণ্যের ক্যাটালগ ও দামসহ তালিকা</li><li>WhatsApp-এ সরাসরি অর্ডার</li><li>অফার/ডিসকাউন্ট সেকশন</li><li>সর্বোচ্চ ৫০টি পণ্য আপলোডসহ</li><li>ডেলিভারি: ৫–৭ দিন</li></ul>
+<a class="btn" href="https://wa.me/8801677161678?text=%E0%A6%86%E0%A6%AE%E0%A6%BF%20%E0%A6%85%E0%A6%A8%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%A8%20%E0%A6%B6%E0%A6%AA%20%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%87%E0%A6%9C%20(%E0%A7%B3%E0%A7%AF,%E0%A7%AF%E0%A7%AF%E0%A7%AF)%20%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87" target="_blank" rel="noopener">এই প্যাকেজ নিন</a>
+</div>
+<div class="card">
+<h3>ব্লগ / নিউজ সাইট</h3>
+<div class="price">৳৩,৯৯৯ <small>/ একবার</small></div>
+<ul><li>খবর/লেখা প্রকাশের পূর্ণ সেটআপ</li><li>ক্যাটাগরি ও সার্চ</li><li>বিজ্ঞাপন (AdSense) বসানোর উপযোগী</li><li>নিজে পোস্ট দেওয়ার গাইড</li><li>ডেলিভারি: ৩–৪ দিন</li></ul>
+<a class="btn" href="https://wa.me/8801677161678?text=%E0%A6%86%E0%A6%AE%E0%A6%BF%20%E0%A6%AC%E0%A7%8D%E0%A6%B2%E0%A6%97/%E0%A6%A8%E0%A6%BF%E0%A6%89%E0%A6%9C%20%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F%20%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%87%E0%A6%9C%20(%E0%A7%B3%E0%A7%A9,%E0%A7%AF%E0%A7%AF%E0%A7%AF)%20%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87" target="_blank" rel="noopener">এই প্যাকেজ নিন</a>
+</div>
+</div>
+<p class="lead" style="margin-top:18px">বিদেশি ক্লায়েন্টদের জন্য USD রেট প্রযোজ্য — পেমেন্ট Payoneer-এর মাধ্যমে।</p>
+</div></section>
+
+<section class="sec"><div class="wrap">
+<h2>কীভাবে কাজ হয়</h2>
+<p class="lead">মাত্র ৩টি ধাপ</p>
+<div class="steps">
+<div class="step"><div class="n">১</div><b>কথা বলুন</b><p>WhatsApp-এ জানান কেমন সাইট চান। আমরা ডিজাইন ও প্যাকেজ ঠিক করে দেব।</p></div>
+<div class="step"><div class="n">২</div><b>৫০% অগ্রিম</b><p>বিকাশে ৫০% অগ্রিম পেলেই কাজ শুরু। বাকি টাকা সাইট হাতে পাওয়ার পর।</p></div>
+<div class="step"><div class="n">৩</div><b>ডেলিভারি</b><p>৩–৫ দিনে সাইট লাইভ। সাথে ৭ দিনের ফ্রি সাপোর্ট।</p></div>
+</div>
+</div></section>
+
+<section class="sec" id="kaj"><div class="wrap">
+<h2>আমাদের তৈরি সাইট</h2>
+<p class="lead">নিজের চোখে দেখে নিন — প্রতিটা সাইট লাইভ ও চালু</p>
+<div class="work">
+<a href="https://toolbari.netlify.app/" target="_blank" rel="noopener"><b>ToolBari — টুলবাড়ি</b><p>৭৫টি ফ্রি অনলাইন টুলের সম্পূর্ণ ওয়েবসাইট — লাইভ নিউজ, শেয়ার বাজারের দাম, ভিডিও ডাউনলোডারসহ।</p></a>
+<a href="https://redvanta.blogspot.com/" target="_blank" rel="noopener"><b>RedVanta</b><p>অনলাইন শপিং ব্লগ — পণ্যের কার্ড, দাম ও অফারসহ মোবাইল-ফ্রেন্ডলি ডিজাইন।</p></a>
+<a href="https://cineflixone.blogspot.com/" target="_blank" rel="noopener"><b>CineFlixOne</b><p>সিনেমার পোস্টার-গ্রিড ওয়েবসাইট — ক্যাটাগরি অনুযায়ী সাজানো।</p></a>
+<a href="https://birthdaycakephoto.blogspot.com/" target="_blank" rel="noopener"><b>Birthday Cake PhotO</b><p>জন্মদিনের কেক ও শুভেচ্ছার ব্লগ — SEO-সহ সম্পূর্ণ সেটআপ।</p></a>
+</div>
+</div></section>
+
+<section class="sec" id="faq"><div class="wrap">
+<h2>সাধারণ জিজ্ঞাসা</h2>
+<p class="lead">&nbsp;</p>
+<div class="faq">
+<details><summary>ডোমেইন (www.আপনারনাম.com) কি পাব?</summary><p>দুটি রাস্তা আছে। (১) ফ্রি: yourbusiness.netlify.app-এর মতো ফ্রি ঠিকানা — কোনো খরচ নেই, আজই চলবে। (২) নিজের .com ডোমেইন: বছরে প্রায় ৳১,৩০০–১,৬০০ খরচ, ডোমেইনটি আপনার নিজের নামেই কেনা হবে (মালিকানা আপনারই থাকবে) — আমরা ফ্রি হোস্টিংয়ের সাথে কানেক্ট করে দেব, হোস্টিং খরচ থাকবে শূন্য।</p></details>
+<details><summary>পেমেন্ট কীভাবে করব?</summary><p>বিকাশে ৫০% অগ্রিম, বাকি ৫০% সাইট ডেলিভারির সময়। বিদেশ থেকে হলে Payoneer-এর মাধ্যমে ডলারে পেমেন্ট করা যাবে।</p></details>
+<details><summary>সাইট বানাতে কতদিন লাগবে?</summary><p>প্যাকেজ অনুযায়ী ২–৭ দিন। জরুরি হলে জানাবেন, চেষ্টা করব দ্রুত দেওয়ার।</p></details>
+<details><summary>পরে সাইটে কিছু বদলাতে চাইলে?</summary><p>ডেলিভারির পর ৭ দিন সম্পূর্ণ ফ্রি সাপোর্ট। এরপর ছোটখাটো পরিবর্তনের জন্য নামমাত্র চার্জে সাপোর্ট প্যাকেজ আছে।</p></details>
+<details><summary>আমার ছবি/লেখা কীভাবে দেব?</summary><p>WhatsApp-এই পাঠিয়ে দিলেই হবে — বাকি সাজানোর কাজ আমাদের।</p></details>
+</div>
+</div></section>
+
+<div class="wrap"><div class="final">
+<h2>আজই আপনার ওয়েবসাইটের অর্ডার করুন</h2>
+<p>ফেসবুক পেজের বাইরেও নিজের একটা ঠিকানা হোক — কাস্টমার গুগলে খুঁজলেই যেন আপনাকে পায়।</p>
+<a class="btn wa" href="https://wa.me/8801677161678?text=%E0%A6%86%E0%A6%AE%E0%A6%BF%20%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BE%20%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F%20%E0%A6%AC%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87" target="_blank" rel="noopener">💬 WhatsApp করুন</a>
+</div></div>
+
+<footer>© WebBari ওয়েববাড়ি • ঢাকা, বাংলাদেশ • WhatsApp: +880 1677-161678</footer>
+<a class="wafloat" href="https://wa.me/8801677161678?text=%E0%A6%86%E0%A6%AE%E0%A6%BF%20%E0%A6%8F%E0%A6%95%E0%A6%9F%E0%A6%BE%20%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F%20%E0%A6%AC%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87" target="_blank" rel="noopener">💬 WhatsApp</a>
+</body>
+</html>
